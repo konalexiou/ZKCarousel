@@ -9,10 +9,12 @@ public struct ZKCarouselSlide {
     public var image : UIImage?
     public var title : String?
     public var description: String?
+    public var blackGradientLayer:Bool?
     
-    public init(image: UIImage?, title: String?, description: String?) {
+    public init(image: UIImage?, title: String?, description: String?, blackGradientLayer: Bool?) {
         self.image = image
         self.title = title
         self.description = description
+        self.blackGradientLayer = blackGradientLayer        
     }
 }
